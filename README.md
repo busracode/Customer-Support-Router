@@ -149,10 +149,11 @@ python -m unittest discover -s tests
 ```
 The full unit suite includes training-package checks and requires prepared data.
 The application itself does not require the dataset.
-Fresh-environment validation status is recorded in `docs/setup_validation.md`; same-machine verification is not proof of compatibility with another operating system.
+Clean-environment installation, dependency checks, all 17 model hashes, nine tests and four-model Streamlit inference passed on Windows on 2026-11-20.
+Details are in `docs/setup_validation.md`; same-machine verification is not proof of compatibility with another operating system.
 
 ## Architecture and technique map
-See `docs/architecture.md` and the two-slide architecture/technique-map supplement in `deliverables/` once generated.
+See `docs/architecture.md` and `deliverables/architecture-technique-map-v3.pptx`, an editable two-slide supplement for the final presentation.
 Runtime: local CPU and Streamlit. Transformer training: Colab GPU. Quantization and evaluation: local CPU.
 
 ## Repository and model sharing
