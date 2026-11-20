@@ -60,6 +60,28 @@ python -m streamlit run app/streamlit_app.py
 ```
 Open the local URL shown in the terminal. The first submission loads the four models into memory.
 
+## Project structure
+```text
+Customer-Support-Router/
+├── app/
+│   └── streamlit_app.py          # Bilingual Streamlit interface
+├── src/
+│   ├── preprocessing.py          # Shared text normalization
+│   ├── routing.py                # Rules, spelling correction and team mapping
+│   ├── inference.py              # Four-model local inference
+│   └── models/                   # Neural, distillation and quantization code
+├── scripts/                      # Data preparation, training, evaluation and packaging
+├── notebooks/                    # Colab notebooks for BERT and student training
+├── tests/                        # Unit and training-bundle checks
+├── results/                      # Metrics, thresholds, reports and error examples
+├── docs/                         # Architecture, setup validation and model manifest
+├── deliverables/                 # Presentation supplements
+├── data/                         # Dataset files, excluded from Git
+├── artifacts/                    # Classical, neural and INT8 model files, excluded from Git
+└── colab/                        # BERT/student artifacts, excluded from Git
+```
+`release/` is generated locally for the separate model ZIP and is excluded from Git.
+
 ## Using the application
 1. Select English or Türkçe in the upper-right corner.
 2. Enter an **English** message and press **Route message / Talebi yönlendir**.
