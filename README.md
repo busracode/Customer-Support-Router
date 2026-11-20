@@ -15,8 +15,8 @@ Low-confidence and out-of-scope predictions go to Human Agent. This demo display
 - Four model artifacts, provided separately from source code. Retraining is not required to run the app.
 
 ## Model download
-**Release link pending:** the verified model bundle must be uploaded to Google Drive or Hugging Face before submission.
-There is currently no published download URL. This README alone is not yet sufficient for an external user to obtain the weights.
+Download the verified 477 MB inference bundle from [Google Drive](https://drive.google.com/file/d/1NRl5MNaUF5XNMF_UqdE4VS-6ivUccUE1/view?usp=sharing).
+Before submission, check this link in a private browser window while signed out of Google.
 
 The author builds `release/support-router-models.zip` with:
 ```powershell
@@ -159,8 +159,7 @@ Runtime: local CPU and Streamlit. Transformer training: Colab GPU. Quantization 
 ## Repository and model sharing
 Large weights, local environments, datasets and release ZIPs are excluded by `.gitignore`.
 Publish source to GitHub/GitLab and add the repository URL to the presentation.
-Publish the separate model bundle, replace the pending download notice above with its real URL,
-and verify anonymous access before submission.
+The separate Google Drive bundle is linked above. Verify anonymous access before submission.
 
 ## AI assistance and remaining deliverables
 Codex/ChatGPT assisted with implementation, debugging, documentation and presentation preparation.
