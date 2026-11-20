@@ -1,0 +1,182 @@
+[
+  {
+    "text": "what's the spanish word for pasta",
+    "expected": "translate",
+    "predicted": "oos",
+    "confidence": 0.12499323803187315
+  },
+  {
+    "text": "what's the word for trees in norway",
+    "expected": "translate",
+    "predicted": "oos",
+    "confidence": 0.14154570656482657
+  },
+  {
+    "text": "what's the french word you use for potato",
+    "expected": "translate",
+    "predicted": "oos",
+    "confidence": 0.04867807315019885
+  },
+  {
+    "text": "what would the word for grass be in finland",
+    "expected": "translate",
+    "predicted": "oos",
+    "confidence": 0.07788431793977588
+  },
+  {
+    "text": "english to spanish for dog",
+    "expected": "translate",
+    "predicted": "oos",
+    "confidence": 0.24593840845573242
+  },
+  {
+    "text": "what's the spanish word for dog",
+    "expected": "translate",
+    "predicted": "oos",
+    "confidence": 0.1676065627015167
+  },
+  {
+    "text": "i would like help moving money between accounts",
+    "expected": "transfer",
+    "predicted": "oos",
+    "confidence": 0.3074325311446662
+  },
+  {
+    "text": "how much money can i transfer today",
+    "expected": "transfer",
+    "predicted": "oos",
+    "confidence": 0.298652654409307
+  },
+  {
+    "text": "add funds to the retirement account from the pnc account only",
+    "expected": "transfer",
+    "predicted": "oos",
+    "confidence": 0.11889714852334236
+  },
+  {
+    "text": "repeat what the weather will be like",
+    "expected": "transfer",
+    "predicted": "weather",
+    "confidence": 0.9065435286312561
+  },
+  {
+    "text": "who set up the numbers for it",
+    "expected": "timer",
+    "predicted": "oos",
+    "confidence": 0.13271149439841204
+  },
+  {
+    "text": "let me know when it's been 5 minutes",
+    "expected": "timer",
+    "predicted": "oos",
+    "confidence": 0.11536399921058531
+  },
+  {
+    "text": "what is the definiton of auspicious",
+    "expected": "definition",
+    "predicted": "calculator",
+    "confidence": 0.6755121364607969
+  },
+  {
+    "text": "i heard some woman say she was going to yerd me, what's that mean",
+    "expected": "definition",
+    "predicted": "oos",
+    "confidence": 0.11399337772295438
+  },
+  {
+    "text": "please explain the word catastrophic to me",
+    "expected": "definition",
+    "predicted": "oos",
+    "confidence": 0.09115925383352888
+  },
+  {
+    "text": "what is the reason humans even exist",
+    "expected": "meaning_of_life",
+    "predicted": "oos",
+    "confidence": 0.07507192858395914
+  },
+  {
+    "text": "what do you know about lifes meaning",
+    "expected": "meaning_of_life",
+    "predicted": "oos",
+    "confidence": 0.3090081443893457
+  },
+  {
+    "text": "is there a reason beyond biology about why humans are alive",
+    "expected": "meaning_of_life",
+    "predicted": "oos",
+    "confidence": 0.2630963920995777
+  },
+  {
+    "text": "what's the answer to it all",
+    "expected": "meaning_of_life",
+    "predicted": "oos",
+    "confidence": 0.07881150679563173
+  },
+  {
+    "text": "how to i change the policy on my insurace",
+    "expected": "insurance_change",
+    "predicted": "oil_change_how",
+    "confidence": 0.5023625903413891
+  },
+  {
+    "text": "i need to sign up for a new allstate plan",
+    "expected": "insurance_change",
+    "predicted": "oos",
+    "confidence": 0.1781167896757429
+  },
+  {
+    "text": "what is the procedure for signing up for a new allstate plan",
+    "expected": "insurance_change",
+    "predicted": "oos",
+    "confidence": 0.03374894419565804
+  },
+  {
+    "text": "how do i sign up for a new allstatedplan",
+    "expected": "insurance_change",
+    "predicted": "oos",
+    "confidence": 0.1777540735691252
+  },
+  {
+    "text": "phone number to state farm to change insurance",
+    "expected": "insurance_change",
+    "predicted": "oos",
+    "confidence": 0.13370458738305865
+  },
+  {
+    "text": "where the bleep did i put my bleeping phone",
+    "expected": "find_phone",
+    "predicted": "oos",
+    "confidence": 0.283479932054635
+  },
+  {
+    "text": "can you help me hunt for my missing cellphone",
+    "expected": "find_phone",
+    "predicted": "oos",
+    "confidence": 0.1732119972235421
+  },
+  {
+    "text": "would i be safe if i traveled to japan",
+    "expected": "travel_alert",
+    "predicted": "oos",
+    "confidence": 0.17775648679544054
+  },
+  {
+    "text": "am i safe to go to africa",
+    "expected": "travel_alert",
+    "predicted": "oos",
+    "confidence": 0.2200555220070482
+  },
+  {
+    "text": "what are the travel conditions for haiti",
+    "expected": "travel_alert",
+    "predicted": "oos",
+    "confidence": 0.1165406069855643
+  },
+  {
+    "text": "does the state department say anything about traveling to haiti",
+    "expected": "travel_alert",
+    "predicted": "oos",
+    "confidence": 0.03399786742779418
+  }
+]

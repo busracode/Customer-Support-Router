@@ -1,0 +1,84 @@
+{
+  "model": "Mean Word2Vec + feedforward neural network (SGD)",
+  "test": {
+    "accuracy": 0.7507272727272727,
+    "in_scope_accuracy": 0.7266666666666667,
+    "oos_recall": 0.859,
+    "in_scope_false_rejection_rate": 0.2411111111111111,
+    "macro_f1": 0.8003522366466166
+  },
+  "test_without_threshold": {
+    "accuracy": 0.7494545454545455,
+    "in_scope_accuracy": 0.8622222222222222,
+    "oos_recall": 0.242,
+    "in_scope_false_rejection_rate": 0.006666666666666667,
+    "macro_f1": 0.8024814128157779
+  },
+  "validation_selected": {
+    "threshold": 0.8300000000000001,
+    "objective": 0.8135,
+    "accuracy": 0.7325806451612903,
+    "in_scope_accuracy": 0.727,
+    "oos_recall": 0.9,
+    "in_scope_false_rejection_rate": 0.24766666666666667,
+    "macro_f1": 0.8103568231724577
+  },
+  "best_epoch": 11,
+  "epochs_run": 23,
+  "config": {
+    "word2vec": {
+      "vector_size": 100,
+      "window": 5,
+      "min_count": 1,
+      "sg": 1,
+      "negative": 5,
+      "epochs": 40,
+      "seed": 42,
+      "workers": 1
+    },
+    "network": {
+      "hidden_layer_sizes": [
+        256,
+        128
+      ],
+      "activation": "relu",
+      "solver": "sgd",
+      "batch_size": 128,
+      "learning_rate_init": 0.02,
+      "momentum": 0.9,
+      "alpha": 0.001,
+      "random_state": 42
+    },
+    "max_epochs": 100,
+    "patience": 12,
+    "selection": "Minimum validation log loss; threshold selected on validation after checkpoint selection."
+  },
+  "vocabulary_size": 5318,
+  "training_seconds": 32.595997700002044,
+  "word2vec_training_seconds": 17.64549049999914,
+  "model_size_mb": 2.899047,
+  "size_definition": "Compressed joblib including word vectors, vocabulary, scaler, network and threshold; decimal MB.",
+  "latency_mean_ms": 0.9529379994637566,
+  "latency_p95_ms": 1.7059350087947678,
+  "latency_runs": 200,
+  "warmup_runs": 20,
+  "latency_scope": "Single-message normalization, tokenization, averaged vectors, scaling, network and rejection; excludes loading/UI.",
+  "hardware": {
+    "platform": "Windows-10-10.0.22631-SP0",
+    "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+    "logical_cpus": 20,
+    "numeric_threads": 1
+  },
+  "versions": {
+    "python": "3.11.9",
+    "sklearn": "1.9.1",
+    "numpy": "2.4.6",
+    "gensim": "4.4.0"
+  },
+  "data_sha256": {
+    "train": "402bde2ab3ce786f88739a305dba10711080cb2dd8899fd475f5e8452179f567",
+    "validation": "826b9f0f8862384a944fa5df1d2e42ce5065d6debe87f962726b65f3df49a84c",
+    "test": "5c3187c8769c905b895cd36891fe0e5fae7875d656bbfff95df23d5cd90f16e2"
+  },
+  "confidence_note": "Softmax probability is not calibrated. No known tokens forces OOS as a rule, not model confidence."
+}

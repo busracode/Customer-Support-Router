@@ -1,0 +1,73 @@
+{
+  "format_version": 1,
+  "files": {
+    "artifacts/baseline.joblib": {
+      "bytes": 34113595,
+      "sha256": "3cce578e3053e04b95cbd47b06eb651394d1a28830437c2c7b741286f9356504"
+    },
+    "artifacts/neural.joblib": {
+      "bytes": 2899047,
+      "sha256": "22ca0f45972487283f00a805d26120d9c07a8ed46e024446ff1aaf1832c61d14"
+    },
+    "colab/bert_model/config.json": {
+      "bytes": 8271,
+      "sha256": "8704693a75890c466307851cbe9917f0c0b6a3ed623451e6dbf33e6a05c1706d"
+    },
+    "colab/bert_model/model.safetensors": {
+      "bytes": 438416972,
+      "sha256": "c1dd1cba3bcccf3fba74dd02e691299f99309c7cdb74dab66eddff50622ccf83"
+    },
+    "colab/bert_model/routing_config.json": {
+      "bytes": 3459,
+      "sha256": "3a63f4163125c019e0366c90da41b9400a3261e65125abbd0e32931bcac5b09c"
+    },
+    "colab/bert_model/special_tokens_map.json": {
+      "bytes": 125,
+      "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3"
+    },
+    "colab/bert_model/tokenizer.json": {
+      "bytes": 711659,
+      "sha256": "41b9d12a4c559e4098f30173bc0f76d092c43d7b1f873e7027da45a256f30f87"
+    },
+    "colab/bert_model/tokenizer_config.json": {
+      "bytes": 1221,
+      "sha256": "1f92c93d2e31974acffab86d48e80a9357acb18c68346c5472ef1d12c72d5d77"
+    },
+    "colab/bert_model/vocab.txt": {
+      "bytes": 231508,
+      "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+    },
+    "artifacts/student_int8/config.json": {
+      "bytes": 8565,
+      "sha256": "d95fdfcc252deb1e20a63d94fbbe50be23dd2c2d28979894d32fe140d651b508"
+    },
+    "artifacts/student_int8/model_int8.pt": {
+      "bytes": 35137294,
+      "sha256": "3a68fefdfc05cdf4828ab9ebc5306d4d5b9b5a9850ed690e75f9164e325328e2"
+    },
+    "artifacts/student_int8/quantization.json": {
+      "bytes": 323,
+      "sha256": "43275db7a45589e7d3cc5fb5ead9fef3f2762148c0edea13ecee27dff904d60f"
+    },
+    "artifacts/student_int8/routing_config.json": {
+      "bytes": 3622,
+      "sha256": "c9927c0cea456bf8261233f041facf98127c4c219f42e987e5b21e422b89b236"
+    },
+    "artifacts/student_int8/special_tokens_map.json": {
+      "bytes": 732,
+      "sha256": "5aa43c2f985a25296d5a5ce621c2f77376ca8091a47993c492fd5460b895b140"
+    },
+    "artifacts/student_int8/tokenizer.json": {
+      "bytes": 711659,
+      "sha256": "41b9d12a4c559e4098f30173bc0f76d092c43d7b1f873e7027da45a256f30f87"
+    },
+    "artifacts/student_int8/tokenizer_config.json": {
+      "bytes": 1474,
+      "sha256": "38f86fad87d0c770a520a033b1502b481050d51583a7aee715d98fe5a9b2b8c6"
+    },
+    "artifacts/student_int8/vocab.txt": {
+      "bytes": 231508,
+      "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+    }
+  }
+}

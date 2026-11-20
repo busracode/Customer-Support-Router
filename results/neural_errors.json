@@ -1,0 +1,182 @@
+[
+  {
+    "text": "what's the spanish word for pasta",
+    "expected": "translate",
+    "predicted": "oos",
+    "confidence": 0.5553860664367676
+  },
+  {
+    "text": "what's the word for trees in norway",
+    "expected": "translate",
+    "predicted": "oos",
+    "confidence": 0.27601805329322815
+  },
+  {
+    "text": "what's the french word you use for potato",
+    "expected": "translate",
+    "predicted": "oos",
+    "confidence": 0.6796392202377319
+  },
+  {
+    "text": "what would the word for grass be in finland",
+    "expected": "translate",
+    "predicted": "oos",
+    "confidence": 0.638073205947876
+  },
+  {
+    "text": "how would i say what is your name if i were french",
+    "expected": "translate",
+    "predicted": "oos",
+    "confidence": 0.8125307559967041
+  },
+  {
+    "text": "how would i say where is the bathroom if i were korean",
+    "expected": "translate",
+    "predicted": "oos",
+    "confidence": 0.7913420796394348
+  },
+  {
+    "text": "dog in spanish",
+    "expected": "translate",
+    "predicted": "oos",
+    "confidence": 0.6703985929489136
+  },
+  {
+    "text": "what's the spanish word for dog",
+    "expected": "translate",
+    "predicted": "oos",
+    "confidence": 0.49759989976882935
+  },
+  {
+    "text": "can you please provide me with assistance in moving money from one account to another",
+    "expected": "transfer",
+    "predicted": "oos",
+    "confidence": 0.8221638798713684
+  },
+  {
+    "text": "i would like help moving money between accounts",
+    "expected": "transfer",
+    "predicted": "oos",
+    "confidence": 0.5552860498428345
+  },
+  {
+    "text": "can i move some money around",
+    "expected": "transfer",
+    "predicted": "oos",
+    "confidence": 0.41520223021507263
+  },
+  {
+    "text": "i would like to distribute some money between my accounts",
+    "expected": "transfer",
+    "predicted": "oos",
+    "confidence": 0.7074073553085327
+  },
+  {
+    "text": "how much money can i transfer today",
+    "expected": "transfer",
+    "predicted": "oos",
+    "confidence": 0.3670717179775238
+  },
+  {
+    "text": "add funds to the retirement account from the pnc account only",
+    "expected": "transfer",
+    "predicted": "oos",
+    "confidence": 0.5656534433364868
+  },
+  {
+    "text": "repeat what the weather will be like",
+    "expected": "transfer",
+    "predicted": "weather",
+    "confidence": 0.9542603492736816
+  },
+  {
+    "text": "who set up the numbers for it",
+    "expected": "timer",
+    "predicted": "oos",
+    "confidence": 0.5832952857017517
+  },
+  {
+    "text": "let me know when it's been 5 minutes",
+    "expected": "timer",
+    "predicted": "oos",
+    "confidence": 0.4771699607372284
+  },
+  {
+    "text": "what is the meaning of incandescent",
+    "expected": "definition",
+    "predicted": "oos",
+    "confidence": 0.8231070041656494
+  },
+  {
+    "text": "what is the definiton of auspicious",
+    "expected": "definition",
+    "predicted": "oos",
+    "confidence": 0.36266425251960754
+  },
+  {
+    "text": "can you tell me the meaning of fluctuate",
+    "expected": "definition",
+    "predicted": "oos",
+    "confidence": 0.49336835741996765
+  },
+  {
+    "text": "i'd like to know what bitcoin means",
+    "expected": "definition",
+    "predicted": "oos",
+    "confidence": 0.6094112992286682
+  },
+  {
+    "text": "i heard some woman say she was going to yerd me, what's that mean",
+    "expected": "definition",
+    "predicted": "oos",
+    "confidence": 0.26641571521759033
+  },
+  {
+    "text": "can you tell me what obsolescence means",
+    "expected": "definition",
+    "predicted": "oos",
+    "confidence": 0.49722161889076233
+  },
+  {
+    "text": "please explain the word catastrophic to me",
+    "expected": "definition",
+    "predicted": "oos",
+    "confidence": 0.6873819828033447
+  },
+  {
+    "text": "what's the meaning of naff",
+    "expected": "definition",
+    "predicted": "oos",
+    "confidence": 0.5986630320549011
+  },
+  {
+    "text": "can you tell me what dendrofilous means",
+    "expected": "definition",
+    "predicted": "oos",
+    "confidence": 0.49722185730934143
+  },
+  {
+    "text": "would you provide me with what the point of life is",
+    "expected": "meaning_of_life",
+    "predicted": "oos",
+    "confidence": 0.8243407607078552
+  },
+  {
+    "text": "what is the reason humans even exist",
+    "expected": "meaning_of_life",
+    "predicted": "oos",
+    "confidence": 0.4935692250728607
+  },
+  {
+    "text": "what information can you give me on the meaning of life",
+    "expected": "meaning_of_life",
+    "predicted": "oos",
+    "confidence": 0.6579692959785461
+  },
+  {
+    "text": "what do you know about lifes meaning",
+    "expected": "meaning_of_life",
+    "predicted": "oos",
+    "confidence": 0.6811456084251404
+  }
+]

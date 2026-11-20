@@ -1,0 +1,182 @@
+[
+  {
+    "text": "how do you say fast in spanish",
+    "expected": "translate",
+    "predicted": "oos",
+    "confidence": 0.7591544389724731
+  },
+  {
+    "text": "what's the word for trees in norway",
+    "expected": "translate",
+    "predicted": "oos",
+    "confidence": 0.5933306217193604
+  },
+  {
+    "text": "how would one say cruiser in china",
+    "expected": "translate",
+    "predicted": "oos",
+    "confidence": 0.7227203845977783
+  },
+  {
+    "text": "what would the word for grass be in finland",
+    "expected": "translate",
+    "predicted": "oos",
+    "confidence": 0.5657005906105042
+  },
+  {
+    "text": "how would i say what is your name if i were french",
+    "expected": "translate",
+    "predicted": "oos",
+    "confidence": 0.7137481570243835
+  },
+  {
+    "text": "english to spanish for dog",
+    "expected": "translate",
+    "predicted": "oos",
+    "confidence": 0.6814258694648743
+  },
+  {
+    "text": "dog in spanish",
+    "expected": "translate",
+    "predicted": "oos",
+    "confidence": 0.5055937170982361
+  },
+  {
+    "text": "how much money can i transfer today",
+    "expected": "transfer",
+    "predicted": "oos",
+    "confidence": 0.36116036772727966
+  },
+  {
+    "text": "add funds to the retirement account from the pnc account only",
+    "expected": "transfer",
+    "predicted": "oos",
+    "confidence": 0.2443981021642685
+  },
+  {
+    "text": "repeat what the weather will be like",
+    "expected": "transfer",
+    "predicted": "weather",
+    "confidence": 0.9059743881225586
+  },
+  {
+    "text": "who set up the numbers for it",
+    "expected": "timer",
+    "predicted": "who_made_you",
+    "confidence": 0.7679194808006287
+  },
+  {
+    "text": "let me know when it's been 5 minutes",
+    "expected": "timer",
+    "predicted": "oos",
+    "confidence": 0.30548372864723206
+  },
+  {
+    "text": "what is the definiton of auspicious",
+    "expected": "definition",
+    "predicted": "oos",
+    "confidence": 0.45827516913414
+  },
+  {
+    "text": "i heard some woman say she was going to yerd me, what's that mean",
+    "expected": "definition",
+    "predicted": "oos",
+    "confidence": 0.16862642765045166
+  },
+  {
+    "text": "what is the reason humans even exist",
+    "expected": "meaning_of_life",
+    "predicted": "oos",
+    "confidence": 0.6407710313796997
+  },
+  {
+    "text": "is there a reason beyond biology about why humans are alive",
+    "expected": "meaning_of_life",
+    "predicted": "oos",
+    "confidence": 0.534112274646759
+  },
+  {
+    "text": "what's the answer to it all",
+    "expected": "meaning_of_life",
+    "predicted": "oos",
+    "confidence": 0.3231746256351471
+  },
+  {
+    "text": "how to i change the policy on my insurace",
+    "expected": "insurance_change",
+    "predicted": "oos",
+    "confidence": 0.2542051374912262
+  },
+  {
+    "text": "i need to sign up for a new allstate plan",
+    "expected": "insurance_change",
+    "predicted": "oos",
+    "confidence": 0.24614907801151276
+  },
+  {
+    "text": "what is the procedure for signing up for a new allstate plan",
+    "expected": "insurance_change",
+    "predicted": "oos",
+    "confidence": 0.22344838082790375
+  },
+  {
+    "text": "how do i sign up for a new allstatedplan",
+    "expected": "insurance_change",
+    "predicted": "oos",
+    "confidence": 0.06332279741764069
+  },
+  {
+    "text": "phone number to state farm to change insurance",
+    "expected": "insurance_change",
+    "predicted": "oos",
+    "confidence": 0.37397727370262146
+  },
+  {
+    "text": "where the bleep did i put my bleeping phone",
+    "expected": "find_phone",
+    "predicted": "oos",
+    "confidence": 0.5711467862129211
+  },
+  {
+    "text": "what are the travel conditions for haiti",
+    "expected": "travel_alert",
+    "predicted": "oos",
+    "confidence": 0.6437079310417175
+  },
+  {
+    "text": "are there any travel bulletins about haiti",
+    "expected": "travel_alert",
+    "predicted": "oos",
+    "confidence": 0.7489668130874634
+  },
+  {
+    "text": "does the state department say anything about traveling to haiti",
+    "expected": "travel_alert",
+    "predicted": "oos",
+    "confidence": 0.6191667318344116
+  },
+  {
+    "text": "safety concerns for malaysia",
+    "expected": "travel_alert",
+    "predicted": "oos",
+    "confidence": 0.7059903740882874
+  },
+  {
+    "text": "how is a vacation request done",
+    "expected": "pto_request",
+    "predicted": "oos",
+    "confidence": 0.7440438866615295
+  },
+  {
+    "text": "how is a vacation request made",
+    "expected": "pto_request",
+    "predicted": "oos",
+    "confidence": 0.7238470315933228
+  },
+  {
+    "text": "can you help me plan a vacation",
+    "expected": "pto_request",
+    "predicted": "oos",
+    "confidence": 0.49522116780281067
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "test": {
+    "original": 5500,
+    "kept": 5500,
+    "removed": 0
+  },
+  "validation": {
+    "original": 3100,
+    "kept": 3100,
+    "removed": 0
+  },
+  "train": {
+    "original": 15100,
+    "kept": 15095,
+    "removed": 5
+  }
+}

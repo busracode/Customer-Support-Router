@@ -1,0 +1,52 @@
+{
+  "model": "TF-IDF (word 1-2 grams) + Logistic Regression",
+  "test": {
+    "accuracy": 0.8263636363636364,
+    "in_scope_accuracy": 0.8148888888888889,
+    "oos_recall": 0.878,
+    "in_scope_false_rejection_rate": 0.152,
+    "macro_f1": 0.863619344297432
+  },
+  "test_without_threshold": {
+    "accuracy": 0.7683636363636364,
+    "in_scope_accuracy": 0.9062222222222223,
+    "oos_recall": 0.148,
+    "in_scope_false_rejection_rate": 0.0044444444444444444,
+    "macro_f1": 0.8342592801890945
+  },
+  "validation_selected": {
+    "threshold": 0.32,
+    "objective": 0.8336666666666667,
+    "accuracy": 0.8090322580645162,
+    "in_scope_accuracy": 0.8073333333333333,
+    "oos_recall": 0.86,
+    "in_scope_false_rejection_rate": 0.157,
+    "macro_f1": 0.8611588798018479
+  },
+  "threshold_selection": "Maximize mean of in-scope accuracy and OOS recall on validation only; ties choose smaller threshold.",
+  "confidence_note": "Maximum predicted probability; not calibrated reliability.",
+  "training_seconds": 43.33876750000013,
+  "model_size_mb": 34.113595,
+  "size_definition": "Compressed joblib, including vectorizer, classifier and threshold; decimal MB.",
+  "latency_mean_ms": 0.7760660000087682,
+  "latency_p95_ms": 1.2807900000211692,
+  "latency_runs": 200,
+  "warmup_runs": 20,
+  "latency_scope": "Single-message normalization, TF-IDF, predict_proba and OOS rejection; excludes loading and UI.",
+  "hardware": {
+    "platform": "Windows-10-10.0.22631-SP0",
+    "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+    "logical_cpus": 20,
+    "numeric_threads": 1
+  },
+  "versions": {
+    "python": "3.11.9",
+    "sklearn": "1.9.1",
+    "numpy": "2.4.6"
+  },
+  "data_sha256": {
+    "train": "402bde2ab3ce786f88739a305dba10711080cb2dd8899fd475f5e8452179f567",
+    "validation": "826b9f0f8862384a944fa5df1d2e42ce5065d6debe87f962726b65f3df49a84c",
+    "test": "5c3187c8769c905b895cd36891fe0e5fae7875d656bbfff95df23d5cd90f16e2"
+  }
+}
